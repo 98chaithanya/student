@@ -1,0 +1,15 @@
+<table>
+    <thead="dark">
+        <tr>
+            <th>userId</th>
+            <th>id</th>
+            <th>title</th>
+            </thead>
+            <tbody>
+                <tr *ngFor='let student of stdnt'>
+                    <td>{{student.studentId}}</td>
+                    <td>{{student.id}}</td>
+                    <td>{{student.title}}</td>
+                </tr>
+            </tbody>
+</table>

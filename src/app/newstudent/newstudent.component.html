@@ -1,0 +1,33 @@
+<!-- <p>newproduct works!</p> -->
+<div class="card">
+
+    <form (ngSubmit)="AddStudent()">
+
+        <div class="card-header">
+            {{title}}
+        </div>
+        <div class="card-body">
+            <div class="tableresponsive">
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td><label>student id</label></td>
+                            <td><input type="text" name="studentId" [(ngModel)]="studentItem.studentId" /></td>
+                        </tr>
+                        <tr>
+                            <td><label> student name</label></td>
+                            <td>
+                                <input type="text" name="id" [(ngModel)]="studentItem.id" /> </td>
+                        </tr>
+                        <tr>
+                            <td><label>student name</label></td>
+                            <td>
+                                <input type="text" name="title" [(ngModel)]="studentItem.title" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </form>
+</div>
